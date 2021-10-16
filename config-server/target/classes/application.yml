@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/izadi-a/microservices-config-server
+          username:
+          password:
+          clone-on-start: false
+
+server:
+  port: 8888
