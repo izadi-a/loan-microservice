@@ -1,14 +1,16 @@
 spring:
   application:
     name: config-server
+
   cloud:
     config:
       server:
         git:
           uri: https://github.com/izadi-a/microservices-config-server
-          username:
-          password:
-          clone-on-start: false
+          username: ali.izadi.m@gmail.com
+          password: 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
+          clone-on-start: true
+          default-label: main
 
 server:
   port: 8888
