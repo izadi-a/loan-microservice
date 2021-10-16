@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/loan")
+@RequestMapping("/api/loan")
 public class LoanController {
 
     private static final String LOAN_SERVICE = "loanService";
